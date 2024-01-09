@@ -459,6 +459,10 @@ li {
     border-style: none;
     border-radius: 50px 0px 0px 50px;
 }
+.inp_btn button:hover{
+    background-color: rgb(196, 22, 22);
+    cursor: pointer;
+}
 
 .inp_btn button {
     height: 73px;
