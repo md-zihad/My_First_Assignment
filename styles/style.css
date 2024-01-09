@@ -7,7 +7,7 @@
     margin: 50px 140px;
     border-radius: 15px;
     background-repeat: no-repeat;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url('./images/Banner_image.png');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(../images/Banner_image.png);
     background-position: center;
     background-size: 100% 600px;
     height: 600px;
@@ -37,9 +37,9 @@
 .main-div {
 
     margin: 50px 140px 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: auto;
-    height: 790px;
+    height: 1000px;
     background-repeat: no-repeat;
 
 }
@@ -47,6 +47,7 @@
 .nested h1 {
     color: #F00;
     text-align: center;
+    font-family: Inter;
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
@@ -92,7 +93,7 @@
     margin: 50px 140px;
     border-radius: 15px;
     background-repeat: no-repeat;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url('./images/Vectorrr.png');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url('../images/Vectorrr.png');
     background-position: center;
     background-size: 100% 600px;
     height: 560px;
@@ -163,6 +164,7 @@
 
 .place ul {
     margin: 100px 200px 214px;
+    padding-top: 140px;
 }
 
 .place ul li {
@@ -263,6 +265,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
 }
 
 .functional h1 span {
@@ -305,17 +308,24 @@ li {
 
 }
 
+.coming_soon {
+    margin: 50px 140px 100px;
+
+    width: auto;
+    height: 480px;
+
+}
+
 
 
 
 
 .card {
-    /* border: 1px solid black; */
-    /* display: inline-block; */
+
     vertical-align: top;
     height: 400px;
     width: 400px;
-    /* padding-top: 150px; */
+
     align-items: center;
 
 
@@ -335,7 +345,6 @@ li {
 
 #card2 {
     text-align: center;
-    /* padding-top: 80px; */
 }
 
 .coming {
@@ -345,9 +354,6 @@ li {
 }
 
 
-.bonus {
-    width: 100%;
-}
 
 .portfolio h4 {
     color: #F00;
@@ -381,6 +387,7 @@ li {
 
 .ol1 {
     margin-top: 20px;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
 }
@@ -391,7 +398,7 @@ li {
 }
 
 .newsleter {
-    margin: 30px;
+    margin: 300px;
     position: relative;
     margin: 50px 140px 60px;
     border-radius: 15px;
@@ -435,7 +442,6 @@ li {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
 }
 
 .inp_btn input {
@@ -472,13 +478,14 @@ li {
 }
 
 
-.foot{
+.foot {
     background-color: #070211;
     color: white;
     margin: 0;
     width: 100%;
 }
-.foot-para{
+
+.foot-para {
     color: white;
     display: flex;
     justify-content: space-between;
@@ -486,31 +493,83 @@ li {
     margin: 50px;
     border-bottom: 0.5px solid white;
 }
-.phone{
+
+.phone {
     margin-top: 5px;
 }
-.contact{
+
+.contact {
     margin: 50px;
     justify-content: space-around;
     padding: 30px 400px;
     padding-bottom: 50px;
     border-bottom: 0.5px solid white;
 }
-.contact-img{
+
+.contact-img {
     padding: 10px;
-    
+
 }
-.contact li{
+
+.contact li {
     text-align: center;
 }
-.finish{
+
+.finish {
     margin: 11px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     padding: 50px;
 }
 
-.img1{
+.img1 {
     vertical-align: top;
 }
 
+.rec2 {
+    width: 100%;
+}
+
+.bonus10 img {
+    position: relative;
+}
+
+.bonus1 {
+
+    height: 500px;
+    width: 500px;
+    z-index: 1;
+    top: 302px;
+    left: 39px;
+    position: fixed;
+}
+
+.bonus2 {
+    position: static;
+    height: 430px;
+    width: 430px;
+    right: -302px;
+    top: 150px;
+}
+
+.bonus3 {
+    width: 100%;
+    top: 145px;
+    ;
+    bottom: ;
+    right: 0;
+    left: 0;
+    position: static;
+}
+
+.bonus4 {
+    top: -420px;
+    left: 653px;
+    position: fixed;
+}
+
+.bonus {
+    height: 100px;
+    width: 100px;
+
+}
